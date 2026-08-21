@@ -3,7 +3,7 @@ This repository contains the source code used for the embedded ML model case stu
 presented in the thesis "GPU-Accelerated Infinite-Dimensional Optimization" by Evelyn Gondosiswanto. Note that running these on GPU require an NVIDIA GPU with CUDA support.
 
 ## Building the repository
-Clone the repository and nevigate to its root directory:
+Clone the repository and navigate to its root directory:
 ```bash
 git clone https://github.com/infiniteopt/ML-Models-OCP-GPU
 cd ML-Models-OCP-GPU
@@ -28,7 +28,7 @@ Then start Julia using the repository's project environment:
 julia --project=.
 ```
 
-From the Julia `REPL`, instantiate the dependencied specified by `Project.toml` and `Manifest.toml`:
+From the Julia `REPL`, instantiate the dependencies specified by `Project.toml` and `Manifest.toml`:
 ```julia
 julia> ]
 
